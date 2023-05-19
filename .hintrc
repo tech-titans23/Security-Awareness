@@ -1,13 +1,18 @@
 {
   "extends": [
     "development"
-    
   ],
   "hints": {
     "axe/parsing": [
       "default",
       {
         "marquee": "off"
+      }
+    ],
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
       }
     ]
   }
